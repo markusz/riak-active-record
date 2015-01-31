@@ -1,0 +1,40 @@
+{
+  "name": "riak-active-record",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Markus Zilller <mail.markus.ziller@gmail.com>",
+  "contributors": [
+    "Markus Zilller <mail.markus.ziller@gmail.com>"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "deep-equal": "0.2.1",
+    "node-uuid": "1.4.2",
+    "lodash": "^2.4.1",
+    "log4js": "0.6.x",
+    "riak-js": "0.10.2",
+    "underscore": "~1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "expect.js": "~0.3.1",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-env": "^0.4.2",
+    "grunt-execute": "~0.1.5",
+    "grunt-jscs": "^0.8.1",
+    "grunt-mocha-test": "0.9.3",
+    "jscs": "^1.7.3",
+    "jshint": "~2.1.10",
+    "node-uuid": "~1.4.1",
+    "should": "*",
+    "sinon": "^1.10.3"
+  },
+  "repository": "git@github.com:markusz/riak-active-record.git",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  }
+}

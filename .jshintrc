@@ -1,0 +1,13 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "eqnull": true,
+  "multistr": true,
+  "node": true,
+  "noempty": true,
+  "undef": true,
+  "unused": "vars",
+  "quotmark": "single",
+  "predef": ["jasmine", "describe", "it", "before", "beforeEach", "after", "afterEach"]
+}
