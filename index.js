@@ -1,5 +1,5 @@
 module.exports = {
-	AbstractRecord: require('./lib/records/riak_record'),
+	AbstractRecord: require('./lib/records/abstract_record'),
 	Bucket: require('./lib/datastores/bucket'),
 	getBucketHandler: function(bucketName){
 		var Bucket = require('./lib/datastores/bucket')
